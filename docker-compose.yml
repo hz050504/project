@@ -4,6 +4,9 @@ services:
   mysql:
     image: mariadb:latest
     container_name: mysql
+    command: --init-file /data/application/init.sql
+    volumes:
+        - ./src/init.sql:/data/application/init.sql
     environment:
       MYSQL_ROOT_PASSWORD: MyDBRoot123
       MYSQL_DATABASE: cloud_computing
