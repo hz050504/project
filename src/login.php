@@ -125,6 +125,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
             <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+            <a href="index.html">Back</a>
         </form>
     </div>
 </body>
