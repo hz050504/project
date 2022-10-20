@@ -1,10 +1,10 @@
-Name: <input type="text" name="name" value="<?php echo $name;?>">
+Name: <input type="text" name="name" value="<?php echo $name;?>"><br>
 
-E-mail: <input type="text" name="email" value="<?php echo $email;?>">
+E-mail: <input type="text" name="email" value="<?php echo $email;?>"><br>
 
-Website: <input type="text" name="website" value="<?php echo $website;?>">
+Website: <input type="text" name="website" value="<?php echo $website;?>"><br>
 
-Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea><br>
 
 Gender:
 <input type="radio" name="gender"
